@@ -1,0 +1,63 @@
+.flight-tracker {
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+.flight-tracker h1 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.status-panel {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.status-panel p {
+    margin: 5px 0;
+    font-family: monospace;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.flight-table-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    overflow: auto;
+    margin-top: 20px;
+}
+
+.flight-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.flight-table th,
+.flight-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+.flight-table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+    color: #333;
+}
+
+.flight-table tr:hover {
+    background-color: #f8f9fa;
+}
+
+.flight-table td {
+    font-family: monospace;
+}
